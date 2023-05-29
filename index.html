@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="todolist.png">
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon"> 
+  </head> 
+  <body>
+    <div align="center" class="container">
+      <header class="div1"><b>TO-DO LIST</b></header> 
+
+      <form id="inputsdiv">
+        <input type="text" class="form-control" id="inputText" required  placeholder="  Today I will..." aria-describedby="basic-addon1"/> 
+        <button type="submit" id="addButton" >ADD</button> 
+      </form>
+
+      <!-- <div id="addsdiv">
+        <ul id="list">
+        </ul> 
+      </div>   -->
+      <aside>
+        <button type="button" id="sort-button" class="sortbutton">SORT COMPLETED TASKS</button>  
+      </aside> 
+    </div>
+
+    <script src="script.js">
+    </script> 
+  </body>
+</html>
